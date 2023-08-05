@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <aside>
+        <img src="houseImage.png" alt="Image of a house.">
+    </aside>
+    <main>
+        <section>
+            <h1>
+                Get started with the world's finest rental options!
+            </h1>
+        </section>
+        <section>
+            <h2>Sign up Today!</h2>
+            <form action="post" id="signUp">
+                <input type="text" name="userFirstName" id="firstName" required/>
+                <input type="text" name="userLastName" id="lastName" required/>
+                <input type="email" name="userEmail" id="email" required/>
+                <input type="tel" name="userNumber" id="number" required/>
+                <input type="password" name="userPassword" id="password" required/>
+                <input type="password" name="confirmUserPassword" id="confirmPassword" required/>
+            </form>
+        </section>
+        <section>
+            <button type="submit" form="signUp">Create Account</button>
+        </section>
+    </main>
+</body>
+</html>
