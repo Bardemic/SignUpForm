@@ -27,15 +27,33 @@ main {
     flex-direction: column;
 }
 
+main > section:first-of-type {
+    display: flex;
+    align-items: flex-end;
+}
+
 section {
-    background-color: #838383;
+    box-sizing: border-box;
+    padding-left: 12%;
+    background-color: #eaeaea;
     width: 100%;
     flex: 1;
 }
 
 section:first-of-type + section {
-    background-color: #dcdcdc;
+    background-color: #f7f7f7;
     flex: 2;
+}
+
+h1 {
+    padding-bottom: 60px;
+    font-size: 23px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+h2 {
+    padding-top: 25px;
 }
 
 form {
@@ -44,7 +62,6 @@ form {
     width: 500px;
     height: 75%;
     justify-content: space-around;
-    padding-left: 10%;
 }
 
 input {
@@ -82,7 +99,7 @@ button {
     outline: none;
     border: none;
     width: 200px;
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 2em;
     font-size: 20px;
 }
