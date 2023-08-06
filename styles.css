@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif");
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
 * {
+    font-family: "Noto Serif", Roboto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +20,10 @@ aside > img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+aside > div {
+    font-family: "Lobster", serif;
 }
 
 aside {
@@ -106,6 +114,11 @@ img + div {
 
 a {
     color: inherit;
+}
+
+h4 > a {
+    color: #55b3c1;
+    text-decoration: none;
 }
 
 form {
