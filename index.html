@@ -9,7 +9,10 @@
 </head>
 <body>
     <aside>
-        <img src="houseImage.png" alt="Image of a house.">
+        <img src="houseImage.png" alt="Logo">
+        <div><img src="House.svg">
+            Kampr</div>
+        <h5>Photo by <a href="https://unsplash.com/photos/EBOSaw-mVbc">Neelima Vijayan</a> on <a href="https://unsplash.com/">Unsplash</a></h5>
     </aside>
     <main>
         <section>
@@ -44,6 +47,7 @@
                     <div class="column">
                         <label for="userPassword">Password</label>
                         <input type="password" name="userPassword" id="password" required/>
+                        <span id="passwordMatchSpan"></span>
                     </div>
                     <div class="column">
                         <label for="confirmUserPassword">Confirm Password</label>
@@ -54,6 +58,7 @@
         </section>
         <section>
             <button type="submit" form="signUp">Create Account</button>
+            <h4>Already have an account? <a href=""><span>Sign In</span></a></h4>
         </section>
     </main>
 </body>
